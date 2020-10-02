@@ -3,7 +3,12 @@
   "version": "0.1.0",
   "description": "A complex mixin creator",
   "types": "dist/index.d.ts",
+  "main": "dist/index.js",
   "author": "icetomcat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icetomcat/mixin.git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "npm run build-ts && npm run lint",
